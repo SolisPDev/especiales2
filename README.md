@@ -2,6 +2,7 @@
 
 Este proyecto es una aplicación web desarrollada en Laravel que permite gestionar pedidos especiales, pagos, tiendas, y usuarios. El sistema incluye autenticación y funcionalidades básicas de CRUD para las entidades principales.
 
+## Poryecto en Construcción
 ---
 
 ## Tecnologías Utilizadas
@@ -15,7 +16,7 @@ Este proyecto es una aplicación web desarrollada en Laravel que permite gestion
 
 ## Funcionalidades Principales
 
-1. **Gestín de Tiendas**
+1. **Gestión de Tiendas**
    - Listado de tiendas en una tabla con paginación.
    - Crear, editar y eliminar tiendas.
    - Cada tienda tiene los campos: `ID`, `Nombre`, `Dirección`, y `Teléfono`.
