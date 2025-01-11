@@ -3,6 +3,7 @@
 use App\Http\Controllers\TiendaController;
 use App\Http\Controllers\PedidoController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\MovespController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -15,6 +16,7 @@ Route::get('/dashboard', function () {
 
 Route::middleware('auth')->group(function () {
     Route::get('/tiendas', [TiendaController::class, 'index'])->name('tienda.index');
+    Route::get('/pagos', [MovespController::class, 'index'])->name('pagos.index');
 
     Route::get('/pedido', [PedidoController::class, 'index'])->name('pedido.index'); 
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
